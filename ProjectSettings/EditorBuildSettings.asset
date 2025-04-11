@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Terrain.unity
+    guid: 018f9f1fa2a96204ab139f89361befed
+  - enabled: 1
+    path: Assets/temple.unity
+    guid: eaf774fcac1421b46b3564100ac85542
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: 704c461b1942896458844dd1aab13e30, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: a702f2ab8e1b09843a97a43daef9c6b7,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: a6fc47a20556ae44180f18ca0fcbc0ac, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1e7403154cf4ff546baa9cca7b8ca62d,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 627a1355309b71d45a78fc9f85eff96f,
+      type: 2}

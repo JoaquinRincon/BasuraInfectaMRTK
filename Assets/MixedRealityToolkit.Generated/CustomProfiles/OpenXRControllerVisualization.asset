@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514da61389c049c0bdaf31b7f6970d33, type: 3}
+  m_Name: OpenXRControllerVisualization
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  renderMotionControllers: 1
+  defaultControllerVisualizationType:
+    reference: Microsoft.MixedReality.Toolkit.Input.MixedRealityControllerVisualizer,
+      Microsoft.MixedReality.Toolkit.SDK
+  usePlatformModels: 1
+  platformModelMaterial: {fileID: 2100000, guid: 54322026142964d4084eda2478d9b1a2,
+    type: 2}
+  globalLeftControllerModel: {fileID: 1430607854607880352, guid: fdc76d7030b66f14aab67b69cd8ead32,
+    type: 3}
+  globalRightControllerModel: {fileID: 7107634363803494238, guid: 87471030da200604ebafbe343e760265,
+    type: 3}
+  globalLeftHandVisualizer: {fileID: 1227372834072826, guid: 378f91dbbff9e2343b27a467467750bf,
+    type: 3}
+  globalRightHandVisualizer: {fileID: 1227372834072826, guid: 378f91dbbff9e2343b27a467467750bf,
+    type: 3}
+  controllerVisualizationSettings:
+  - description: Oculus Controller
+    controllerType:
+      reference: Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OculusController, Microsoft.MixedReality.Toolkit.Providers.OpenXR
+    handedness: 3
+    usePlatformModels: 1
+    platformModelMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000,
+      type: 0}
+    overrideModel: {fileID: 0}
+    controllerVisualizationType:
+      reference: Microsoft.MixedReality.Toolkit.Input.WindowsMixedRealityControllerVisualizer,
+        Microsoft.MixedReality.Toolkit.SDK
